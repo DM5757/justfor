@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Mother's Day!</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .card {
+        width: 300px;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        position: relative;
+        margin-bottom: 50px; /* Added margin to the bottom */
+      }
+      h1 {
+        color: #4a12f4;
+      }
+      p {
+        color: #7110d2;
+      }
+      img {
+        width: 250px; /* Increased width */
+        height: 250px; /* Increased height */
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      .left-image {
+        position: absolute;
+        left: -300px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .right-image {
+        position: absolute;
+        right: -300px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      audio {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="5c5f35eb-a1cc-4bc3-a06a-c08fb3152516.jpg"
+        alt="Mother's Day"
+        class="left-image"
+      />
+      <img src="360c2a2e-5f34-4099-ae5b-b5aed0fbb159.jpg" alt="Mother's Day" />
+      <img
+        src="ca2ccb7c-8ee0-4e2c-81ca-17ffad066053.jpg"
+        alt="Mother's Day"
+        class="right-image"
+      />
+      <h1>Happy Mother's Day!</h1>
+      <p>Dear Mom,</p>
+      <p>Thank you for everything you do. You are the best!</p>
+      <p>Love,</p>
+      <p>DM</p>
+    </div>
+    <audio controls autoplay src="Hey Mama.mp3"></audio>
+  </body>
+</html>
